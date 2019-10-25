@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "extradoors-terrestria",
+  "version": "${version}",
+  "name": "ExtraDoors for Terrestria",
+  "description": "ExtraDoors and Terrestria addon, adds new doors for Terrestria!",
+  "authors": [
+    "ExtraCrafTX"
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/extradoors-terrestria/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.extracraftx.minecraft.extradoors.terrestria.ExtraDoorsTerrestria"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
